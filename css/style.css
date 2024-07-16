@@ -1,0 +1,615 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+@media(min-width:992px) {
+    .w-lg-75 {
+        width: 75%;
+    }
+
+}
+
+.color-p-gray {
+    color: #748182;
+}
+
+.background-f7 {
+    background-color: #F7F7F7;
+}
+
+.font-text,
+h3 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.head-size-4 {
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 11;
+}
+
+h3.head-back-dots::after {
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+
+/* allll  */
+
+
+/* home  */
+header.home section.home {
+    background-color: aqua;
+    background-image: url(../images/bg.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+header.home section.home div.home-layer {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+header.home section.home div.home-layer div.content h6 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+header.home section.home div.home-layer div.content h1 {
+    font-size: 90px;
+}
+
+header.home section.home div.home-layer div.content h1 {
+    font-size: 65px;
+    font-weight: 100;
+}
+
+header.home section.home div.home-layer div.content h1::after {
+    font-size: 80px;
+    font-weight: lighter;
+    content: '|';
+    animation: typing 10s linear infinite alternate;
+}
+
+/* developer designer larry daniels */
+@keyframes typing {
+
+    /* larry daniels  */
+    0% {
+        content: "Larry daniels|";
+    }
+
+    10% {
+        content: "Larry danie|";
+    }
+
+    11% {
+        content: "Larry dani|";
+    }
+
+    12% {
+        content: "Larry dan|";
+    }
+
+    13% {
+        content: "Larry da|";
+    }
+
+    14% {
+        content: "Larry d|";
+    }
+
+    15% {
+        content: "Larry|";
+    }
+
+    16% {
+        content: "Larr|";
+    }
+
+    17% {
+        content: "Lar|";
+    }
+
+    18% {
+        content: "La|";
+    }
+
+    19% {
+        content: "L|";
+    }
+
+    20% {
+        content: "|";
+    }
+
+    /* developer */
+    21% {
+        content: "D|";
+    }
+
+    22% {
+        content: "De|";
+    }
+
+    23% {
+        content: "Dev|";
+    }
+
+    24% {
+        content: "Deve|";
+    }
+
+    25% {
+        content: "Devel|";
+    }
+
+    26% {
+        content: "Develo|";
+    }
+
+    27% {
+        content: "Develop|";
+    }
+
+    28% {
+        content: "Develope|";
+    }
+
+    29% {
+        content: "Developer|";
+    }
+
+    44% {
+        content: "Develope|";
+    }
+
+    45% {
+        content: "Develop|";
+    }
+
+    46% {
+        content: "Develo|";
+    }
+
+    47% {
+        content: "Devel|";
+    }
+
+    48% {
+        content: "Deve|";
+    }
+
+    49% {
+        content: "Dev|";
+    }
+
+    50% {
+        content: "De|";
+    }
+
+    51% {
+        content: "D|";
+    }
+
+    /* designer */
+    52% {
+        content: "|";
+    }
+
+    53% {
+        content: "D|";
+    }
+
+    54% {
+        content: "De|";
+    }
+
+    55% {
+        content: "Des|";
+    }
+
+    56% {
+        content: "Desi|";
+    }
+
+    57% {
+        content: "Desig|";
+    }
+
+    58% {
+        content: "Design|";
+    }
+
+    59% {
+        content: "Designe|";
+    }
+
+    60% {
+        content: "Designer|";
+    }
+
+    75% {
+        content: "Designe|";
+    }
+
+    76% {
+        content: "Design|";
+    }
+
+    77% {
+        content: "Desig|";
+    }
+
+    78% {
+        content: "Desi|";
+    }
+
+    79% {
+        content: "Des|";
+    }
+
+    80% {
+        content: "De|";
+    }
+
+    81% {
+        content: "D|";
+    }
+
+    /* larry daniels  */
+    82% {
+        content: "|";
+    }
+
+    83% {
+        content: "L|";
+    }
+
+    84% {
+        content: "La|";
+    }
+
+    85% {
+        content: "Lar|";
+    }
+
+    86% {
+        content: "Lar|";
+    }
+
+    87% {
+        content: "Larr|";
+    }
+
+    88% {
+        content: "Larry|";
+    }
+
+    89% {
+        content: "Larry d|";
+    }
+
+    90% {
+        content: "Larry da|";
+    }
+
+    91% {
+        content: "Larry dan|";
+    }
+
+    92% {
+        content: "Larry dani|";
+    }
+
+    93% {
+        content: "Larry danie|";
+    }
+
+    94% {
+        content: "Larry daniel|";
+    }
+
+    95% {
+        content: "Larry danielr|";
+    }
+
+    100% {
+        content: "Larry danielr|";
+    }
+}
+
+header.home section.home div.home-layer div.icon {}
+
+header.home section.home div.home-layer div.icon span.home-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+
+}
+
+/* allll  */
+/****************** section.about********* */
+section.about {
+    padding: 100px 0;
+}
+
+section.about div.photo div.img:after {
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: -30px;
+    bottom: -30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+section.about div.container-lg div.row div.col-lg-7 div.content {
+    padding: 0 15px;
+}
+
+section.about div.container-lg div.row div.col-lg-7 div.skill div.item div.progress {
+    height: 25px;
+    margin-bottom: 30px;
+}
+
+.btn-outline-light {
+    --bs-border-color: black !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+    background-color: transparent;
+    color: black;
+    text-decoration: underline;
+}
+
+.nav-pills .nav-link {
+    color: black;
+    border: none;
+    font-weight: 700;
+}
+
+/****************** end-section.about********* */
+
+/************* start-Services*********** */
+section.services {
+    padding: 100px 0 70px 0;
+}
+
+section.services div.row div.item span.icon {
+    font-size: 25px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+section.services div.row div.item span.icon:hover {
+    background-color: black;
+    color: white;
+}
+
+/************* end-Services*********** */
+
+/* start-section-4 */
+section.portfolio {
+    padding: 100px 0 70px 0;
+}
+
+section.portfolio div.tab-content div.col-lg-4 div.items-img {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    transform: translateY(10px);
+    z-index: 2;
+    transition: all 0.5s;
+}
+
+section.portfolio div.tab-content div.col-lg-4 div.img-hover:hover div.items-img {
+    transform: translateY(0);
+    opacity: 1
+}
+
+section.portfolio div.tab-content div.col-lg-4 div.items-img div div.icon a {
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+}
+
+section.portfolio div.tab-content div.col-lg-4 div.items-img div div.icon a i {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.portfolio div.tab-content div.col-lg-4 div.items-img div div.icon a:hover i {
+    background-color: transparent;
+    color: black;
+}
+
+section.portfolio div.tab-content div.col-lg-4 div.items-img div div.caption h6 {
+    transition: all 0.5s;
+    padding-bottom: 30px;
+}
+
+section.portfolio div.tab-content div.col-lg-4 div.img-hover:hover div.items-img div.caption h6 {
+    padding-bottom: 0;
+
+}
+
+section.portfolio div.tab-content div.col-lg-4 div.items-img div div.caption h6 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* end-section-4 */
+
+/* start-section-5 */
+section.testimonials {
+    padding: 100px 0 70px 0;
+}
+
+section.testimonials div div.carousel-inner div.feedback div.image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+div.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #d6d6d6;
+}
+
+/* end-section-5 */
+
+/* start-section-6 */
+section.number {
+    padding: 100px 0 70px 0;
+}
+
+section.number div.row div.item span.icon i {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+section.number div.row div.item h3 {
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+section.number div.row div.item p {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* end-section-6 */
+/* start-team-7 */
+section.team {
+    padding: 100px 0;
+}
+
+section.team div.team-pep div.item {
+    background-color: rgba(52, 52, 52, .8);
+    margin-bottom: 10px;
+}
+
+div.effect {
+    overflow: hidden;
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    transform: rotate(0) scale(0.5, 0.5);
+    transition: transform 0.5s;
+}
+
+div.item:hover div.effect {
+    background-color: red;
+    opacity: 1;
+    transform: rotate(360deg) scale(1, 1);
+}
+
+
+section.team div.team-pep div.item div.team-img img {
+    transition: transform 0.5s;
+}
+
+section.team div.team-pep div.item:hover div.team-img img {
+    transform: scale(1.1, 1.1);
+}
+
+section.team div.team-pep div.item div.photo div.effect div.icon span {
+    padding: 0 5px;
+}
+
+section.team div.team-pep div.item div.photo div.effect div.icon span i {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+section.team div.team-pep div.item div.photo div.effect div.icon span:hover i {
+    color: black;
+    background-color: transparent;
+}
+
+/* end-team-7 */
+
+/* end-contact-8 */
+section.contact {
+    padding: 100px 0;
+}
+
+section.contact div.item span.icon {
+    font-size: 25px;
+    margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+section.contact div.item span.icon:hover {
+    background-color: black;
+    color: white;
+}
+
+section.contact div.input div input {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+}
+
+section.contact div.textarea div textarea {
+    height: 160px;
+    max-height: 160px;
+    max-width: 100%;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+}
+
+/* end-contact-8 */
